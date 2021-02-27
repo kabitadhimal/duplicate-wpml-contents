@@ -1,0 +1,105 @@
+[
+    {
+        "key": "group_565403aeeb89b",
+        "title": "Options for Duplicating the Content",
+        "fields": [
+            {
+                "key": "field_6020e89886d0a",
+                "label": "Deactivate",
+                "name": "deactivate",
+                "type": "checkbox",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "yes": "Yes"
+                },
+                "allow_custom": 0,
+                "default_value": [
+                    "Deactivate the duplicate option"
+                ],
+                "layout": "vertical",
+                "toggle": 0,
+                "return_format": "value",
+                "save_custom": 0
+            },
+            {
+                "key": "field_565403ea454b1",
+                "label": "Languages",
+                "name": "language_code",
+                "type": "checkbox",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "ar": "Arabic",
+                    "bs": "Bosnian",
+                    "zh-hant": "Chinese (Traditional)",
+                    "fr": "French",
+                    "de": "German",
+                    "ko": "Korean",
+                    "ru": "Russian",
+                    "es": "Spanish"
+                },
+                "allow_custom": 0,
+                "default_value": [],
+                "layout": "vertical",
+                "toggle": 0,
+                "return_format": "value",
+                "save_custom": 0
+            },
+            {
+                "key": "field_565403f7454b2",
+                "label": "Content Type",
+                "name": "content_type",
+                "type": "checkbox",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "page": "Page",
+                    "post": "Post",
+                    "slider": "Slider"
+                },
+                "allow_custom": 0,
+                "default_value": [],
+                "layout": "vertical",
+                "toggle": 0,
+                "return_format": "value",
+                "save_custom": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "acf-options-duplicate-content"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]

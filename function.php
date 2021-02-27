@@ -29,8 +29,10 @@ function wpml_duplicate_on_publish ( $post_id ){
     if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) {
         return $post_id;
     }
+
     // don't save for revisions
-    if (isset($post->post_type) && $post->post_type == 'revision') {
+    $postType = get_post_type($post_id);
+    if (isset($postType) && $postType == 'revision') {
         return $post_id;
     }
 
